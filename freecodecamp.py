@@ -29,7 +29,10 @@ num = -5
 print(type(num)) # cannot print num next to string
 print(num)
 # print(pow(3,2)) = 9
+print("\n pow" )
+print(pow(3,2))
 # print(abs(-5)) => 5
+
 # round(3.7) => 4
 
 # from math import *
@@ -51,9 +54,17 @@ print(color)
 friends =["Kevin", "Kevon","Kony", "Kiddy" ]
 print(friends[1:3]) # Kevon Kony
 # .append => add the end of the list
+friends.append("Kedo")
+print(".append" + str(friends))
 # .insert(1, "dd") => put new one
+friends.insert(1, "Karen")
+print(".insert _1_ Karen"+ str(friends))
 # .remove()
+friends.remove("Kevin")
+print(".remove"+str(friends))
 #.pop() => last remove
+friends.pop()
+print(".pop"+ str(friends))
 
 # frinds.index("kevin") => 0
 #frinds.sort() => small => big
