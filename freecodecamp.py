@@ -46,8 +46,8 @@ print(pow(3,2))
 #result = num1 + num2
 
 # 59:00 mad lip game
-color= input("Input a color ")
-celebrity = input("Input your celebrity")
+color= input("Input a color: ")
+celebrity = input("Input your celebrity: ")
 print(celebrity)
 print(color)
 # list
