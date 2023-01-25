@@ -85,3 +85,22 @@ def cube(num):
 result = cube(4)
 print(result)
 #1:45:00 
+#dictionay
+print("dictionary topic")
+monthCoversions={
+  "Jan": "January",
+  "Feb": "Febuary",
+  "Mar": "March",
+  "Apr": "April",
+  "May": "May",
+  "Jun": "June",
+  "Jul": "July",
+  "Aug": "August",
+  "Sep": "September",
+  "Oct": "October",
+  "Nov": "November",
+  "Dec": "December"
+
+}
+monthP=input("What is you 3 letters of you fevorite month: ")
+print("You fevorite month is "+ monthCoversions[monthP])
