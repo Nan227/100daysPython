@@ -1,6 +1,6 @@
 # User input 2 number and 1 operator
 num1 =float(input("Enter the first number: "))
-op = input("Enter the operator ' +, -, *, / , x^y ' : ")
+op = input("Enter the operator ' +, -, *, / , x^y' : ")
 num2 =float(input("Enter the first number: "))
 
 # calculate
