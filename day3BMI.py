@@ -10,7 +10,8 @@ weightKM = weight/2.2
 heightM = height * 0.3048
 
 #Calculate the BMI
-bmi = weightKM/(heightM*heightM)
+bmi = weightKM/(heightM**2)
+bmi = round(bmi,2)
 
 #If BMI is under 18.5, they are Underweight
 #If 18.5 < BMI < 25, they are normal weight
@@ -18,12 +19,12 @@ bmi = weightKM/(heightM*heightM)
 #If 30 < BMI < 35, they are obese
 #If Above 35, they are clinically obese
 if bmi < 18.5:
-  print(" Your BMI is "+ str(round(bmi,2))+ ", and you are underweight")
+  print(f" Your BMI is {bmi} and you are underweight")
 elif (bmi >= 18.5) and (bmi < 25):
-  print(" Your BMI is "+ str(round(bmi,2))+ ", and you are normalweight")
+  print(f" Your BMI is {bmi}, and you are normalweight")
 elif (bmi >= 25) and (bmi < 30):
-  print(" Your BMI is "+ str(round(bmi,2))+ ", and you are overweight")
+  print(f" Your BMI is {bmi}, and you are overweight")
 elif (bmi >= 30) and (bmi < 35):
-  print(" Your BMI is "+ str(round(bmi,2))+ ", and you are obese")
+  print(f" Your BMI is {bmi}, and you are obese")
 elif bmi >= 35:
-  print(" Your BMI is "+ str(round(bmi,2))+ ", and you are clinically obese")
+  print(f" Your BMI is {bmi}, and you are clinically obese")
