@@ -14,4 +14,4 @@ height = float(input("Enter your height(feet): "))
 #If 18.5 < BMI < 25, they are normal weight
 #If 25 < BMI < 30, they are overweight
 #If 30 < BMI < 35, they are obese
-#If Above
+#If Above 35, they are clinically obese
