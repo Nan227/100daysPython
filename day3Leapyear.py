@@ -1,4 +1,4 @@
-year= float(input("Enter the year(Leap year checker): "  ))
+year= int(input("Enter the year(Leap year checker): "  ))
 #3 steps checking , first the year have to %4 ==0. Second, the year have to % 100 ==0, last the year have to % 400==0
 yearF=float(year)
 if yearF %4 == 0:
