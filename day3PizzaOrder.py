@@ -7,32 +7,32 @@ numberOfPizza = int(input("How many pizza do you want for this order? "))
 if size =="S":
   if add_pepperoni == "Y":
     if extra_cheese == "Y":
-      price = 10+2+2
+      price = 15+2+1
     else:
-      price = 10+2
+      price = 15+2
   else:
-    price = 10
+    price = 15
 elif size =="M":
   if add_pepperoni == "Y":
     if extra_cheese == "Y":
-      price = 12+2+2
+      price = 20+3+1
     else:
-      price = 12+2
+      price = 20+3
   else:
-    price = 12
+    price = 20
 elif size =="L":
   if add_pepperoni == "Y":
     if extra_cheese == "Y":
-      price = 14+2+2
+      price = 25+3+2
     else:
-      price = 14+2
+      price = 25+3
   else:
-    price = 14  
+    price = 25  
 
 
 else:
   print("Sorry, you order is errored. Please re-order again")
-  
+
 print(f"\nYou order {size} with {add_pepperoni} peperroni and {extra_cheese} extra cheese ")
 print(f"Your price of one pizza is {price}")
 totalbill= numberOfPizza*price
