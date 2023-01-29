@@ -8,37 +8,32 @@ if size =="S":
   if add_pepperoni == "Y":
     if extra_cheese == "Y":
       price = 10+2+2
-      print(f"You order {size} with {add_pepperoni} peperroni and {extra_cheese} extra cheese ")
     else:
       price = 10+2
-      print(f"You order {size} with {add_pepperoni} peperroni and {extra_cheese} extra cheese ")
   else:
     price = 10
-    print(f"You order {size} with {add_pepperoni} peperroni and {extra_cheese} extra cheese ")
 elif size =="M":
   if add_pepperoni == "Y":
     if extra_cheese == "Y":
       price = 12+2+2
-      print(f"You order {size} with {add_pepperoni} peperroni and {extra_cheese} extra cheese ")
     else:
       price = 12+2
-      print(f"You order {size} with {add_pepperoni} peperroni and {extra_cheese} extra cheese ")
   else:
     price = 12
-    print(f"You order {size} with {add_pepperoni} peperroni and {extra_cheese} extra cheese ")
-elif size == "L":
- if add_pepperoni == "Y":
+elif size =="L":
+  if add_pepperoni == "Y":
     if extra_cheese == "Y":
       price = 14+2+2
-      print(f"You order {size} with {add_pepperoni} peperroni and {extra_cheese} extra cheese ")
     else:
       price = 14+2
-      print(f"You order {size} with {add_pepperoni} peperroni and {extra_cheese} extra cheese ")
   else:
-    price = 14
-    print(f"You order {size} with {add_pepperoni} peperroni and {extra_cheese} extra cheese ")
+    price = 14  
+
+
 else:
   print("Sorry, you order is errored. Please re-order again")
-
+  
+print(f"\nYou order {size} with {add_pepperoni} peperroni and {extra_cheese} extra cheese ")
+print(f"Your price of one pizza is {price}")
 totalbill= numberOfPizza*price
-print(f"You total bill is {totalbill} ")
+print(f"You order {numberOfPizza} , you total bill is {totalbill} ")
