@@ -12,7 +12,9 @@ print("This machine is allowed people who is higher than 120cm to play")
 high = float(input("How tall are you? "))
 if high >=120:
   age= int(input("How old are you? "))
-  if age >18:
+  if age>=45 and age<=55:
+    print("Cost of a ride roller coaster is $0")
+  elif age >18:
     print("Cost of a ride roller coaster is $12")
   else:
     print("Cost of a ride roller coaster is $7")
