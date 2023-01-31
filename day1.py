@@ -1,4 +1,4 @@
-
+#docs.python.org
 print("Welcome to factorial calculator ")
 n = int(input("Enter the factorial number: "))                  # Reading input from STDIN
 fac=1
