@@ -10,3 +10,4 @@
 #Day3: Even and Odd check project.
 - User inputs a number. Then the program will % with 2 . 
   If the reasult=0 then the program will print "even", otherwise, it will print "odd" 
+#Day4: learn about slite string
