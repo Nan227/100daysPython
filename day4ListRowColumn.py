@@ -10,6 +10,6 @@ position = input (" Where do you want to input 'x'? :")
 horizonal = int(position[0])
 vertical = int(position[1])
 serect_row= map[vertical-1]
-serect_column[horizon-1] = "X"
+serect_row[horizonal-1] = "X"
 
 print(f"{row1} \n{row2} \n{row3}")
