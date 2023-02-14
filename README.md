@@ -9,5 +9,13 @@
 
 #Day3: Even and Odd check project.
 - User inputs a number. Then the program will % with 2 . 
-  If the reasult=0 then the program will print "even", otherwise, it will print "odd" 
+  If the reasult=0 then the program will print "even", otherwise, it will print "odd"
+- Love score game: User will input two name. Then the system will march them up follow the rule of game. After than it will show the result of score
+- Leap years checker: user inputs the year. Then the system will display if that year is the leap year or not
+- Pizza ordering: calculate the pizza order by size, extra topping, and number of order
+  
 #Day4: learn about slite string
+
+- List row and column: after choose which row and which culumn, user will see there "x" sign mark on that location
+- Luckybill: random name who will pay the bill
+- Rock papaer scissor game
