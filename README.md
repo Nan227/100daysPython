@@ -19,3 +19,5 @@
 - List row and column: after choose which row and which culumn, user will see there "x" sign mark on that location
 - Luckybill: random name who will pay the bill
 - Rock papaer scissor game
+#Day5: learn about funcion
+- how to import one file to other
