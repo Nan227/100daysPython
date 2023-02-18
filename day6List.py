@@ -11,4 +11,4 @@ totalhigh = sum(student_heights)
 num_students=len(student_heights)
 averagehigh=totalhigh/num_students
 print(totalhigh)
-print(averagehigh)
+
