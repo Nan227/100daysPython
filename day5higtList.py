@@ -18,5 +18,6 @@ print(totalStudent)
 
 
 averageHeight = totalHeight/totalStudent
-averageHeight = round(averageHeight, 2)
+averageHeight = round(averageHeight, 0)
+averageHeight = int(averageHeight) # without decimal
 print(f" The average height of {totalStudent} students is {averageHeight} cm" )
