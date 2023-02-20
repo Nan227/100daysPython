@@ -21,3 +21,16 @@ averageHeight = totalHeight/totalStudent
 averageHeight = round(averageHeight, 0)
 averageHeight = int(averageHeight) # without decimal
 print(f" The average height of {totalStudent} students is {averageHeight} cm" )
+# No max() and min() use
+maxHeight = 0
+for height in students_height:
+  if height > maxHeight:
+     maxHeight=height
+print(f" The higtest of students height is {maxHeight}")
+
+# No max() and min() use
+minHeight = students_height[0]
+for height in students_height:
+  if height < minHeight:
+     minHeight=height
+print(f" The lowest of students height is {minHeight}")
