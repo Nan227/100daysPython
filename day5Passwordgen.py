@@ -14,5 +14,6 @@ passwordSymbol=random.choices(symbol, k=nr_symbols)
 passwordNumbers=random.choices(number, k=nr_numbers)
 password=passwordLetter+passwordSymbol+passwordNumbers
 l = list(password)
-#shuffle(l)
-#print(''.join(random.password(l,len(l))))
+
+n=''.join(l)
+print(f"You password is {n}")
