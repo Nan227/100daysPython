@@ -13,7 +13,7 @@ passwordLetter=random.choices(letter, k=nr_letters)
 passwordSymbol=random.choices(symbol, k=nr_symbols)
 passwordNumbers=random.choices(number, k=nr_numbers)
 password=passwordLetter+passwordSymbol+passwordNumbers
-l = list(password)
 
-n=''.join(l)
+random.SystemRandom().shuffle(password)
+n=''.join(password)
 print(f"You password is {n}")
