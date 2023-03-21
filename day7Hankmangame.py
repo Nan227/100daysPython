@@ -21,3 +21,7 @@ for j in answer_word:
   else:
     result = False
 print(result)
+
+if (result == True):
+  line = guess
+  print(line)
