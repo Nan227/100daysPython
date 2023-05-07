@@ -25,3 +25,9 @@ print(result)
 if (result == True):
   line = guess
   print(line)
+# how to switch the guess letter into => word
+for i in range(len(answer_word)):
+  if guess[i] == answer_word[i]:
+    answer_word[i]= guess[i]
+    print(answer_word)
+    #return answer_word[i]
