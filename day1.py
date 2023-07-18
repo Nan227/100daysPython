@@ -1,2 +1,2 @@
-number =input(' what is your lucky number? ')
-print('Your lucky number is' + str(number) )
+number =input(' what is your lucky number?  '  )
+print('Your lucky number is' + str(number))

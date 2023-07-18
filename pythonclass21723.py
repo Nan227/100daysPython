@@ -1,0 +1,1 @@
+# comand line for rasberry pie => Linux
